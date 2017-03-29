@@ -1,0 +1,62 @@
+#bbc{
+			background-color: white;
+			color: black;
+			width: 100%;
+		}
+
+
+		#footer1{
+
+		}
+		
+		#footer2{
+
+		}
+
+		ul{
+			
+			background-color: #bb1919;
+			position: fixed;
+			list-style-type: none;
+			/*top: 0;*/
+			width: 100%
+
+		}
+
+		header{
+			background-color: #bb1919;
+			position: fixed;
+			list-style-type: none;
+			
+			width: 100%
+		}
+
+		.img ad{
+			align-self: center;
+			margin-top: 120px;
+			border-top-width: 0px;
+		    border-right-width: 0px;
+		    border-bottom-width: 0px;
+		    border-left-width: 0px;
+		    border-top-style: solid;
+		    border-right-style: solid;
+		    border-bottom-style: solid;
+		    border-left-style: solid;
+		    width: 728px;
+		}
+
+		li{
+			display: inline;
+			color: white;
+			font-size: 24px;
+		}
+
+		h3{
+			color:white;
+		}
+
+		body{
+			font-family:Helvetica,Arial,freesans,sans-serif;
+		}
+
+		</style>

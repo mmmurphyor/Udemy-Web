@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+	<title>Example for class</title>
+	
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content+"width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/animations.css">
+	<style type="text/css">
+	
+	body {
+		background-color: #29364c;
+		margin: 5;
+		padding: 10;
+		font-family: "Arial, Helvetica, sans-serif";
+		font-color: white;	
+		text-align: center;
+	}
+	
+	h1 {
+		color: white;
+		font-family:Arial;
+		font-style: bold;
+		margin:auto;
+		width:100%;
+		display: block;
+		background-color: #29364c
+		text-align: center;
+	}
+	
+	p {
+		
+		font-color: #eaeff7;
+	}
+	#liheader{
+		color: white;
+		font-family:Arial;
+		font-style: bold;
+		text-align: left;
+		
+		
+		display: block;
+		background-color: #29364c
+		text-align:left;
+	}
+	
+	li {
+		font-size: 18px;
+		color: #eaeff7;
+		text-align: left;
+	}
+	.textcontainer {
+		margin: 50px;
+		width: 90%;			
+		border-style: inset;
+		border-color: #495363;
+		border-width: 3px 
+		border-radius: 50% 50% 50% 50%	
+	}
+	.listcontainer {
+		margin: 50px;
+		width: 50%;			
+		border-style: solid;
+		border-color:transparent;
+		border-width: 3px 
+		border-radius: 50% 50% 50% 50%	
+	}
+	
+	div p {	
+		vertical-align: middle;
+		padding 25px;
+		color:  #eaeff7;;
+		text-align: left;
+		font-size:18px;
+		margin-left: 10px;
+		margin-right: 10px;
+		
+	}
+	table {
+	padding 25px;
+		color:  #eaeff7;;
+		text-align: center;
+		font-size:18px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+		padding-top: 20px;	
+	}
+	
+	#pluto{
+	float: right;
+	margin-right: 10px;
+	}
+	</style>	
+</head>
+
+<body>
+
+
+<div class="heartslide">			
+	<img src="imgs/heart_small.png"  alt="heart"/><br />	
+</div>
+
+<h1>Pluto, the Planet with a Heart!</h1 >
+<hr></hr>
+<br></br>
+
+<div class="textcontainer"> 
+	<p>	Pluto was discovered by Clyde Tombaugh in 1930 at the Lowell Observatory in Flagstaff, Arizona. Long regarded as a planet, 
+		Pluto was downgraded to a dwarf planet in 2006 during a meeting of the IAU in Prague. The move was controversial, and
+		is even more so now after the New Horizons mission revealed what a complex and amazing world Pluto really is. The current battle
+		pits astronomers versus planetary scientists. Each side considers the criteria of what defines a planet differently.</p>	
+</div>
+<img id="pluto" src="imgs/pluto2.png" alt="pluto"/>
+<h3 id="liheader">The Astronomers</h3>
+<div>
+	
+	<ul class="listcontainer">
+		<li>The object must be in orbit around the Sun.</li>
+		<li>The object must be massive enough to be rounded by its own gravity.
+			More specifically, its own gravity should pull it into a shape defined by hydrostatic equilibrium. </li>
+		<li>It must have cleared the neighborhood around its orbit.</li>
+	</ul>
+</div>	
+<img id="pluto" src="imgs/pluto.jpg" alt="pluto"/>
+<h3 id="liheader">The Planetary Scientists</h3>
+<div>
+	<ul class="listcontainer">
+		<li>The object need not be in orbit around the Sun. It can be in orbit around another planet, or be a rogue planet.</li>	
+		<li>Planet: a sub-stellar mass body that has never undergone nuclear fusion and that has sufficient
+			self-gravitation to assume a spheroidal shape adequately described by a triaxial ellipsoid regardless of its orbital parameters.</li>
+		<li>Planetary scientists point out that by the terms of the new definition, 
+			Earth, Mars, Jupiter, and Neptune, all of which share their orbits with asteroids, would be excluded.</li>
+	</ul>
+</div>
+<br></br>
+<hr></hr>
+<div class="textcontainer">
+
+	<table>
+		<tr>
+			<th>Diameter</th>
+			<th>Mass</th>
+			<th>Orbit Distance</th>
+			<th>Orbit Period</th>
+			<th>Surface Temperature</th>
+			<th>Moons</th>
+		</tr>
+		<tr>
+			<td>2,372 km</td>
+			<td>1.31 × 10^22 kg (0.17 Moons)</td>
+			<td>5,874,000,000 km (39.26 AU)</td>
+			<td>246.0 years</td>
+			<td>-229°C</td>
+			<td>5 (Charon)</td>
+		</tr>
+		<tr></tr>
+		<tr></tr>
+	</table>
+	<hr></hr>
+	
+	<form action="http://space-facts.com/pluto/"	>
+	<p>Learn more here...</p>
+	<p></p><input type="submit" value = "click here">
+	</form>
+	<br></br>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/jfawJZ-k_UY" frameborder="0" allowfullscreen></iframe>
+</body>	
